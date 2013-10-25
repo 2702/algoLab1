@@ -3,6 +3,9 @@ package lab1;
 import java.util.ArrayList;
 import java.util.List;
 
+import util.Point;
+import util.RandomPointFactory;
+
 public class Task2Driver {
 	private static final int POINTS_QUANTITY = 100;
 	

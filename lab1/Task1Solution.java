@@ -1,8 +1,12 @@
 package lab1;
 
+import util.Point;
+import util.PositionSolver;
+import util.RandomPointFactory;
+
 public class Task1Solution {
 	
-	private Solver solver = new Solver();
+	private PositionSolver solver = new PositionSolver();
 	
 	public static void main(String[] args) {
 		new Task1Solution().runApp();

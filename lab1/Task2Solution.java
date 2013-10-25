@@ -3,6 +3,9 @@ package lab1;
 import java.util.ArrayList;
 import java.util.List;
 
+import util.Point;
+import util.PositionSolver;
+
 public class Task2Solution {
 	
 	private List<Point> sl = new ArrayList<Point>();
@@ -10,7 +13,7 @@ public class Task2Solution {
 	private List<Point> sc = new ArrayList<Point>();
 	private List<Point> sr = new ArrayList<Point>();
 	
-	Solver solver = new Solver();
+	PositionSolver solver = new PositionSolver();
 	
 	public void splitSets(Point refPointA, Point refPointB, List<Point> points)
 	{
